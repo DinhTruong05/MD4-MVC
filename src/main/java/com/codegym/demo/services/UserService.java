@@ -23,7 +23,7 @@ import java.util.*;
 
 @Service
 public class UserService {
-    private static final String UPLOAD_DIR = "/Users/luanpv/Desktop/demo/uploads";
+    private static final String UPLOAD_DIR = "/C:/Users/admin/Downloads/uploads/";
     private final IUserRepository userRepository;
     private final IDepartmentRepository departmentRepository;
     private final FileManager fileManager;

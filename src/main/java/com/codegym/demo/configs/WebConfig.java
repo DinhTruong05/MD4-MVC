@@ -64,10 +64,10 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/static/**")
-                .addResourceLocations("/WEB-INF/resources/static");
+                .addResourceLocations("/WEB-INF/resources/");
 
-        registry.addResourceHandler("/resources/uploads/**")
-                .addResourceLocations("file:" + "/Users/luanpv/Desktop/demo/uploads")
+        registry.addResourceHandler("/uploads/**")
+                .addResourceLocations("file:/C:/Users/admin/Downloads/uploads/")
                 .setCachePeriod(0);
     }
 
